@@ -15,6 +15,6 @@ The programs were developed on sketch. The libraries provided are to be loaded i
 on your system. On windows platform usually located in the documents/arduino folder
 
 Warning : 
-The maximum value an unsigned long int(the variable used for as clock counter) can hold is 4,294,967,295. 
+The maximum value an unsigned long int(the variable used  as clock counter) can hold is 4,294,967,295. 
 Convert that many milliseconds into days and the rollover will occur in 49 days. It would be safe to shut down the
 system once a month for getting the correct date and time. The other option is to use RTC device connected to Node MCU
