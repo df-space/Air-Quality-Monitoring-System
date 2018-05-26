@@ -18,3 +18,9 @@ Warning :
 The maximum value an unsigned long int(the variable used  as clock counter) can hold is 4,294,967,295. 
 Convert that many milliseconds into days and the rollover will occur in 49 days. It would be safe to shut down the
 system once a month for getting the correct date and time. The other option is to use RTC device connected to Node MCU
+
+
+Setup:
+
+Load the files under the libraries folder in the arduino sketch libraries path. 
+Update the Declare.h file and provide the FIREBASE DB setup details and your WIFI credentials
